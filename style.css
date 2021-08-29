@@ -58,32 +58,32 @@ img {
     overflow-y: auto;
 }
 .user-lst::-webkit-scrollbar {
-    width: 2vw;
+    width: 8px;
     border-radius: 1px;
 }
 .user-lst::-webkit-scrollbar-button {
-    height: 2vw;
+    height: 8px;
     background-color: #c1c1c166;
     border-style: solid;
     border-radius: 5px;
 }
 .user-lst::-webkit-scrollbar-button:vertical:decrement {
-    border-width: 0 1vw 2vw 1vw;
+    border-width: 0 4px 7px 4px;
     border-color: transparent transparent #40404022 transparent;
 }
 .user-lst::-webkit-scrollbar-button:vertical:increment {
-    border-width: 2vw 1vw 0 1vw;
+    border-width: 7px 4px 0 4px;
     border-color: #40404022 transparent transparent transparent;
 }
 .user-lst::-webkit-scrollbar-button:hover {
     background-color: #c1c1c199;
 }
 .user-lst::-webkit-scrollbar-button:vertical:decrement:hover {
-    border-width: 0 1vw 2vw 1vw;
+    border-width: 0 4px 7px 4px;
     border-color: transparent transparent #40404055 transparent;
 }
 .user-lst::-webkit-scrollbar-button:vertical:increment:hover {
-    border-width: 2vw 1vw 0 1vw;
+    border-width: 7px 4px 0 4px;
     border-color: #40404055 transparent transparent transparent;
 }
 .user-lst::-webkit-scrollbar-thumb {
