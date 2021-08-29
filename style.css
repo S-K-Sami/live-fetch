@@ -57,6 +57,49 @@ img {
     max-height: 400px;
     overflow-y: auto;
 }
+.user-lst::-webkit-scrollbar {
+    width: 2vw;
+    border-radius: 1px;
+}
+.user-lst::-webkit-scrollbar-button {
+    height: 2vw;
+    background-color: #c1c1c166;
+    border-style: solid;
+    border-radius: 5px;
+}
+.user-lst::-webkit-scrollbar-button:vertical:decrement {
+    border-width: 0 1vw 2vw 1vw;
+    border-color: transparent transparent #40404022 transparent;
+}
+.user-lst::-webkit-scrollbar-button:vertical:increment {
+    border-width: 2vw 1vw 0 1vw;
+    border-color: #40404022 transparent transparent transparent;
+}
+.user-lst::-webkit-scrollbar-button:hover {
+    background-color: #c1c1c199;
+}
+.user-lst::-webkit-scrollbar-button:vertical:decrement:hover {
+    border-width: 0 1vw 2vw 1vw;
+    border-color: transparent transparent #40404055 transparent;
+}
+.user-lst::-webkit-scrollbar-button:vertical:increment:hover {
+    border-width: 2vw 1vw 0 1vw;
+    border-color: #40404055 transparent transparent transparent;
+}
+.user-lst::-webkit-scrollbar-thumb {
+    background-color: #c1c1c188;
+    border-radius: 5px;
+}
+.user-lst::-webkit-scrollbar-thumb:hover {
+    background-color: #a8a8a8;
+}
+.user-lst::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #f1f1f188;
+}
+.user-lst::-webkit-scrollbar-track:hover {
+    background-color: #e8e8e8;
+}
 .user-lst li {
     display: flex;
     padding: 20px;
